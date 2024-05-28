@@ -1,0 +1,194 @@
+body{
+    background-color: #25405B;
+    font-family: "Montserrat", sans-serif;
+
+    margin: 20px 0px;
+}
+h1 {
+    color :rgb(255, 255, 255);
+    font-size: 32px;
+}
+h1 .about{
+    color: #25405B;
+}
+
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+a:hover{
+   text-decoration:overline;
+    color:rgb(176, 221, 250);
+}
+#banner{
+    width: 100%;
+}
+#about{
+    background-color: #25405B;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+     
+}
+#about .about-image{
+display: flex;
+width: 330px;
+border-color: rgb(255, 255, 255);
+border-width: 0.3px;
+padding: 15px 0px;
+border-style: solid;
+margin: 30px;  
+justify-content:  center; 
+
+}
+#about .about-text{
+padding: 15px 0px;
+width: 330px;
+height: 350px;
+border-color: rgb(255, 255, 255);
+border-width: 0.3px;
+border-style: solid;  
+margin: 30px; 
+}
+.about{ 
+    display: flex;
+    justify-content: center;
+    padding: 0px 18px 15px 18px;
+    
+    }
+    .about h5{
+        font-size: 14px;
+        color: aliceblue;
+        text-align: justify;
+        line-height: 26px;
+    }
+   .about h1{
+    text-align: center;
+    animation: typing 2s steps(302) 1s 1 normal both, blink 1s steps(1) infinite;
+    overflow: hidden;
+    white-space:nowrap;
+   }
+   @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+.bouquet3{
+    border-radius: 5px;
+}
+header{
+    background-color: #25405B;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    margin: 0px 20px;
+}
+
+header nav .nav-right-section{
+    /* Eliminar viñetas */
+        list-style: none;
+        width: 70%;
+        display: flex;
+        /* Centrado vertical */
+        align-items: center;
+        height: auto;
+        justify-content: flex-end;
+    }
+    header nav .nav-left-section{
+        /* Eliminar viñetas */
+            list-style: none;
+            display: flex;
+            width: 30%;
+            /* Centrado vertical */
+            align-items: center;
+            height: auto;
+        }
+        #skills{
+            background-color: rgb(253, 254, 255);
+            padding: 40px;
+            justify-content: center;
+        }
+        #skills h1{
+            color:#25405B;
+            font-size: 32px;
+            text-align: center;
+                animation: typing 1s steps(10) 1s 1 normal both, blink 1s steps(1) infinite;
+                overflow: hidden;
+                white-space:nowrap;
+               }
+#experience{
+    display: flex;
+    padding: 40px;
+}   
+#experience h3{
+    color: aliceblue;
+    font-size: 14px;
+        text-align: justify;
+        line-height: 26px;
+}
+#experience .pulse{
+    width: 31rem;
+	height: 31rem;
+	border-radius: 50%;
+    border-color: aliceblue;
+    border-style: solid;  
+    border-width: 1px;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+	text-align: center;
+  margin:0px auto;
+  padding:3%
+}   
+#experience .arcelorMittal{
+    width: 31rem;
+	height: 31rem;
+	border-radius: 50%;
+    border-color: aliceblue;
+    border-style: solid;  
+    border-width: 1px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  margin:0px auto;
+  padding:3%
+}       
+#achievement{
+        background-color: rgb(253, 254, 255);
+        padding: 40px;
+        justify-content: center;
+        display: flex ;
+
+}  
+#achievement .card{
+    padding: 20px;
+}   
+
+.redes-sociales{
+    background-color: #25405B;
+    display: flex;
+    
+    align-items: center;
+    margin: 20px;
+}
+.linkedin{
+    width: 25px;
+}
+h6{
+font-size: small;
+color:#808080;
+}
